@@ -14,21 +14,6 @@
 <img src="https://img.shields.io/github/followers/reapbone?style=for-the-badge&logo=github&label=FOLLOWERS" />
 
 
-🎮 Game server systems & backend utilities
-
-🧰 Desktop developer tools
-
-⚙️ Automation and workflow utilities
-
-🔍 Protocol / asset research
-
-🗄️ Database-backed systems
-
-🪟 Windows-focused tooling
-
-🌐 Open-source software
-
-🧬 TECH MATRIX
 
 <div align="center">
 

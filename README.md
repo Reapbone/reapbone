@@ -13,20 +13,6 @@
 <img src="https://img.shields.io/badge/MODE-OPEN%20SOURCE-8957E5?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
 <img src="https://img.shields.io/github/followers/reapbone?style=for-the-badge&logo=github&label=FOLLOWERS" />
 
-</div>
-
-⚡ WHOAMI
-
-┌──────────────────────────────────────────────────────────────┐
-│  USER        : reapbone                                     │
-│  ROLE        : Game Server Developer / Tool Builder         │
-│  STATUS      : Building the first public releases...        │
-│  INTERESTS   : Servers • Automation • Modding • Protocols   │
-│  PLATFORM    : Windows / GitHub                              │
-│  PHILOSOPHY  : Build useful things. Ship them clean.        │
-└──────────────────────────────────────────────────────────────┘
-
-I build game-server infrastructure, developer tools, automation utilities and modding-focused software.
 
 🎮 Game server systems & backend utilities
 

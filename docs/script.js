@@ -15,11 +15,11 @@
   const dictionary = {
     en: {
       navAbout:'01 / ABOUT',navWork:'02 / WORK',navTerminal:'03 / TERMINAL',
-      heroStatus:'SYSTEM ONLINE / OPEN TO POSSIBILITIES',heroBefore:'TURNING',heroLine:'CURIOSITY',heroAfter:'INTO CODE.',
+      heroStatus:'SYSTEM ONLINE / OPEN TO COMMISSIONS',heroBefore:'TURNING',heroLine:'CURIOSITY',heroAfter:'INTO CODE.',
       heroDescription:"I'm Reapbone. I love building things with AI — turning unusual ideas into real, working experiences.",
       viewWork:'EXPLORE MY WORK',runTerminal:'RUN TERMINAL',heroNote:'NOT JUST PROMPTS. PROJECTS, EXPERIMENTS & CODE.',
       sectionAboutTiny:'A BIT ABOUT ME',aboutHeadline:'THE BEST IDEAS<br />START WITH <em>"WHAT IF?"</em>',
-      aboutOne:'I enjoy exploring how AI can unlock new ways to build — from quick experiments to tools that solve real problems.',
+      aboutOne:'I build useful tools with AI and welcome paid freelance requests for bots, automation and AI-assisted development.',
       aboutTwo:'For me, building is the fun part. I experiment, break things, learn something new, and make the next version better.',
       exploreGithub:'EXPLORE REPOSITORIES',c1title:'AI EXPLORATION',c1body:'Experimenting with models, prompts and smarter workflows.',
       c2title:'CREATIVE BUILDING',c2body:'Turning a blank screen into something interactive and useful.',
@@ -294,11 +294,11 @@
   const canvas = $('#network'); const ctx = canvas.getContext('2d');
   if (ctx) {
     const nodes = [
-      {name:'IDEA',nx:.23,ny:.25,color:'#a795ff'},
-      {name:'MODEL',nx:.75,ny:.22,color:'#6ceccd'},
-      {name:'BUILD',nx:.84,ny:.68,color:'#a795ff'},
-      {name:'TEST',nx:.48,ny:.82,color:'#6ceccd'},
-      {name:'SHIP',nx:.18,ny:.66,color:'#a795ff'},
+      {name:'IDEA',nx:.23,ny:.25,color:'#a0a0a0'},
+      {name:'MODEL',nx:.75,ny:.22,color:'#cfcfcf'},
+      {name:'BUILD',nx:.84,ny:.68,color:'#a0a0a0'},
+      {name:'TEST',nx:.48,ny:.82,color:'#cfcfcf'},
+      {name:'SHIP',nx:.18,ny:.66,color:'#a0a0a0'},
     ];
     const stars = Array.from({length:52},(_,i)=>({x:(((i*101+37)%307)/307),y:(((i*79+23)%277)/277),r:(i%3===0?1.2:.7)}));
     let width=400,height=400,drag=-1,hover=-1,chosen=-1,clock=0,animFrame;
@@ -311,27 +311,27 @@
     function coord(node,index){const wobble=prefersReducedMotion.matches||drag===index?0:Math.sin(clock*.0004+index*1.6)*4;return{x:node.nx*width,y:node.ny*height+wobble};}
     function draw(){
       ctx.clearRect(0,0,width,height);const cx=width*.5,cy=height*.5,rad=Math.min(width,height)*.23;
-      stars.forEach(s=>{ctx.fillStyle='rgba(187,176,255,.3)';ctx.beginPath();ctx.arc(s.x*width,s.y*height,s.r,0,Math.PI*2);ctx.fill();});
-      for(let i=0;i<4;i++){ctx.beginPath();ctx.strokeStyle=i===2?'rgba(106,239,199,.16)':'rgba(151,126,242,.13)';ctx.lineWidth=1;ctx.arc(cx,cy,rad*(.7+i*.43),0,Math.PI*2);ctx.stroke();}
+      stars.forEach(s=>{ctx.fillStyle='rgba(184,184,184,.3)';ctx.beginPath();ctx.arc(s.x*width,s.y*height,s.r,0,Math.PI*2);ctx.fill();});
+      for(let i=0;i<4;i++){ctx.beginPath();ctx.strokeStyle=i===2?'rgba(208,208,208,.16)':'rgba(140,140,140,.13)';ctx.lineWidth=1;ctx.arc(cx,cy,rad*(.7+i*.43),0,Math.PI*2);ctx.stroke();}
       ctx.save();ctx.translate(cx,cy);if(!prefersReducedMotion.matches)ctx.rotate(clock*.00006);
-      ctx.setLineDash([3,12]);ctx.strokeStyle='rgba(159,135,254,.6)';ctx.beginPath();ctx.arc(0,0,rad*1.35,0,Math.PI*2);ctx.stroke();ctx.setLineDash([]);ctx.restore();
-      ctx.strokeStyle='rgba(127,120,178,.3)';ctx.lineWidth=1;
+      ctx.setLineDash([3,12]);ctx.strokeStyle='rgba(149,149,149,.6)';ctx.beginPath();ctx.arc(0,0,rad*1.35,0,Math.PI*2);ctx.stroke();ctx.setLineDash([]);ctx.restore();
+      ctx.strokeStyle='rgba(126,126,126,.3)';ctx.lineWidth=1;
       nodes.forEach((n,i)=>{
         const p=coord(n,i),next=coord(nodes[(i+1)%nodes.length],(i+1)%nodes.length);
         ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(next.x,next.y);ctx.stroke();
         ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(cx,cy);ctx.stroke();
       });
       const aura=ctx.createRadialGradient(cx,cy,3,cx,cy,rad);
-      aura.addColorStop(0,'rgba(162,136,255,.31)');aura.addColorStop(1,'rgba(162,136,255,0)');ctx.fillStyle=aura;ctx.beginPath();ctx.arc(cx,cy,rad,0,Math.PI*2);ctx.fill();
-      ctx.fillStyle='#15112a';ctx.beginPath();ctx.arc(cx,cy,rad*.61,0,Math.PI*2);ctx.fill();ctx.strokeStyle='rgba(173,149,255,.85)';ctx.lineWidth=1.5;ctx.stroke();
+      aura.addColorStop(0,'rgba(150,150,150,.31)');aura.addColorStop(1,'rgba(150,150,150,0)');ctx.fillStyle=aura;ctx.beginPath();ctx.arc(cx,cy,rad,0,Math.PI*2);ctx.fill();
+      ctx.fillStyle='#141414';ctx.beginPath();ctx.arc(cx,cy,rad*.61,0,Math.PI*2);ctx.fill();ctx.strokeStyle='rgba(162,162,162,.85)';ctx.lineWidth=1.5;ctx.stroke();
       ctx.font=`900 ${Math.max(25,Math.round(rad*.56))}px Arial`;ctx.textAlign='center';ctx.textBaseline='middle';
-      ctx.fillStyle='#faf8ff';ctx.fillText('R',cx-rad*.13,cy);ctx.fillStyle='#6ceccd';ctx.fillText('B',cx+rad*.19,cy);
+      ctx.fillStyle='#f9f9f9';ctx.fillText('R',cx-rad*.13,cy);ctx.fillStyle='#cfcfcf';ctx.fillText('B',cx+rad*.19,cy);
       nodes.forEach((n,i)=>{
         const p=coord(n,i);const active=hover===i||chosen===i;
-        ctx.beginPath();ctx.fillStyle=active?'rgba(157,134,253,.24)':'rgba(157,134,253,.1)';ctx.arc(p.x,p.y,active?30:25,0,Math.PI*2);ctx.fill();
-        ctx.fillStyle='#141323';ctx.strokeStyle=n.color;ctx.lineWidth=active?2.3:1.1;ctx.beginPath();ctx.arc(p.x,p.y,16,0,Math.PI*2);ctx.fill();ctx.stroke();
+        ctx.beginPath();ctx.fillStyle=active?'rgba(147,147,147,.24)':'rgba(147,147,147,.1)';ctx.arc(p.x,p.y,active?30:25,0,Math.PI*2);ctx.fill();
+        ctx.fillStyle='#141414';ctx.strokeStyle=n.color;ctx.lineWidth=active?2.3:1.1;ctx.beginPath();ctx.arc(p.x,p.y,16,0,Math.PI*2);ctx.fill();ctx.stroke();
         ctx.fillStyle=n.color;ctx.beginPath();ctx.arc(p.x,p.y,4,0,Math.PI*2);ctx.fill();
-        ctx.font='10px Consolas,monospace';ctx.textAlign='center';ctx.fillStyle='#b4adce';ctx.fillText(n.name,p.x,p.y+38);
+        ctx.font='10px Consolas,monospace';ctx.textAlign='center';ctx.fillStyle='#b1b1b1';ctx.fillText(n.name,p.x,p.y+38);
       });
       if(!prefersReducedMotion.matches){clock+=16;animFrame=requestAnimationFrame(draw);}
     }

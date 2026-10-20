@@ -1,0 +1,22 @@
+{
+  "name": "rb-moderation-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reapbone Moderation Bot - slash moderation with embeds",
+  "engines": {
+    "node": ">=24.17.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node --check src/index.js && node --check src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.3"
+  },
+  "license": "MIT",
+  "author": "Reapbone"
+}

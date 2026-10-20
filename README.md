@@ -1,123 +1,84 @@
-<!-- REAPBONE // PERSONAL GITHUB PROFILE -->
+<!-- REAPBONE / BLACK & WHITE EDITION -->
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/wordmark-light.svg">
+    <img src="./assets/wordmark-dark.svg" alt="REAPBONE — official wordmark" width="100%">
+  </picture>
 
-<a href="https://github.com/Reapbone"><img src="./assets/hero.svg" width="100%" alt="REAPBONE — I build things with AI. Animated neon AI banner." /></a>
+  <br>
+  <strong>AI-ASSISTED DEVELOPMENT · AUTOMATION · CREATIVE TOOLS</strong>
+  <br><br>
 
-<br />
-
-<a href="https://reapbone.github.io/reapbone/"><img alt="Explore Interactive Portfolio" src="https://img.shields.io/badge/EXPLORE_INTERACTIVE_PORTFOLIO-19162d?style=for-the-badge&logo=githubpages&logoColor=72e9c1" /></a>
-<a href="https://github.com/Reapbone?tab=repositories"><img alt="Explore repositories" src="https://img.shields.io/badge/VIEW_MY_PROJECTS-19162d?style=for-the-badge&logo=github&logoColor=a995ff" /></a>
-<a href="https://github.com/Reapbone?tab=followers"><img alt="Follow on GitHub" src="https://img.shields.io/badge/FOLLOW_THE_JOURNEY-19162d?style=for-the-badge&logo=github&logoColor=ffffff" /></a>
-
-<br /><br />
-
-<img src="./assets/badge.svg" alt="Dream. Build. Repeat." width="300" />
-
+  <a href="https://reapbone.github.io/reapbone/"><img src="https://img.shields.io/badge/INTERACTIVE_PORTFOLIO-111111?style=for-the-badge&logo=githubpages&logoColor=white" alt="Interactive Portfolio"></a>
+  <a href="https://github.com/Reapbone?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-FFFFFF?style=for-the-badge&logo=github&logoColor=black&labelColor=FFFFFF" alt="Repositories"></a>
+  <a href="https://github.com/Reapbone?tab=followers"><img src="https://img.shields.io/github/followers/Reapbone?style=for-the-badge&color=111111&labelColor=111111&logo=github&logoColor=white&label=FOLLOWERS" alt="GitHub followers"></a>
 </div>
 
-### `> hello_world 👋`
-
-I'm **Reapbone**, a curious developer who genuinely loves **building things with AI**. For me, the fun is turning a wild idea into something that *actually works* — experimenting, breaking things, learning, and building again.
-
-> **My favorite workflow:** `imagine → prototype → test → improve → ship`.
-
-```typescript
-const reapbone = {
-  mindset: "learn by building",
-  passion: ["AI", "creative coding", "automation", "experimentation"],
-  currentMode: "creating something new",
-  nextStep: "keep building",
-};
-```
-
-### `> inside_the_lab` <img align="right" src="https://komarev.com/ghpvc/?username=Reapbone&style=flat-square&color=8c78ff&label=VISITORS" alt="Profile visitor count" />
-
-<img src="./assets/terminal.svg" width="100%" alt="Animated terminal: Reapbone, creative developer and AI explorer." />
+---
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="74%" valign="top">
 
-<strong>🧠 WHAT DRIVES ME</strong>
-<ul>
-<li>Turning AI-assisted ideas into useful creations.</li>
-<li>Exploring new tools and techniques.</li>
-<li>Building, debugging, and continuously improving.</li>
-<li>Learning by experimenting, not just watching.</li>
-</ul>
+### `> whoami`
+
+Hey! I'm **Reapbone**, a developer who loves building things with **AI as a creative development partner**. I enjoy turning ideas into practical tools, testing possibilities, improving systems and learning through real projects.
+
+My interests include **Discord bots, game-server tooling, automation, backend systems and AI-assisted development**.
+
+```text
+idea → prototype → test → refine → ship
+```
 
 </td>
-<td width="50%" valign="top">
-
-<strong>⚡ CURRENT SIGNAL</strong>
-<ul>
-<li><strong>Passion:</strong> AI-powered development</li>
-<li><strong>Approach:</strong> Curiosity + practical coding</li>
-<li><strong>Mindset:</strong> Always learning</li>
-<li><strong>Mode:</strong> Build → Test → Repeat</li>
-</ul>
-
+<td width="26%" align="center" valign="middle">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/monogram-light.svg">
+    <img src="./assets/monogram-dark.svg" alt="Official Reapbone RB logo" width="190">
+  </picture>
 </td>
 </tr>
 </table>
 
-### `> worlds_i_like_to_build`
-
-Alongside AI, I'm interested in **game servers, developer tools, automation, and backend systems** — practical spaces where an experiment can become something useful.
-
-### `> live_signals`
+### `> system_status`
 
 <div align="center">
-<img width="100%" src="./assets/stats.svg" alt="GitHub public repositories, earned stars and follower totals. Updated automatically by GitHub Actions." />
+  <img src="./assets/terminal-bw.svg" alt="Animated monochrome terminal with Reapbone developer information" width="100%">
 </div>
 
-<details>
-<summary><b>🧪 OPEN LAB NOTES — click to expand</b></summary>
-<br />
+### `> what_i_do`
 
-**How I like to create**
+- **AI-assisted applications** — turning concepts into useful tools with careful review and testing.
+- **Discord & community systems** — bots, slash commands, embeds and practical integrations.
+- **Automation & tooling** — utilities that remove repetitive work.
+- **Experimentation** — learning new technologies through building and iteration.
 
-1. Start with an idea worth exploring.
-2. Break it into small, testable pieces.
-3. Use AI as a creative development partner.
-4. Build, verify, refactor, and repeat.
-5. Share what I discover.
+### `> commissions_open`
 
-**What you'll find here:** experiments, prototypes, evolving projects, and ideas in motion. I prefer shipping something real to waiting for something perfect.
+**Open to paid freelance / commissioned projects.** I can work on custom bots, automations and AI-assisted software solutions. Using AI as part of my workflow doesn't replace testing, quality checks or responsibility for the final result.
 
-</details>
+Interested in working together? Reach out through my **[GitHub profile](https://github.com/Reapbone)**.
 
 <details>
-<summary><b>🌐 TÜRKÇE — hakkımda</b></summary>
-<br />
+<summary><b>🇹🇷 Türkçe — Hakkımda ve hizmetler</b></summary>
 
-Selam! Ben **Reapbone**. Yapay zekâ kullanarak yeni şeyler geliştirmeyi, fikirleri çalışan projelere dönüştürmeyi ve sürekli yeni teknolojiler denemeyi seviyorum. Bu profilde deneylerimi, geliştirdiğim araçları ve öğrenme sürecimi paylaşıyorum.
+Merhaba! Ben **Reapbone**. Yapay zekâ destekli yazılım geliştirmeyi ve fikirleri çalışan projelere dönüştürmeyi seviyorum. Discord botları, otomasyon, oyun sunucusu araçları ve yeni yazılım teknolojileriyle ilgileniyorum.
 
-**Fikir üret → Kodla → Test et → Geliştir → Paylaş.**
+**Ücretli özel projelere açığım.** Yapay zekâdan geliştirme sürecinde yararlanıyorum; ortaya çıkan işleri test etmeyi, geliştirmeyi ve ihtiyaca uygun şekilde teslim etmeyi önemsiyorum.
 
+İletişim: [GitHub profilim](https://github.com/Reapbone)
 </details>
 
-### `> contribution_matrix`
+### `> activity_signal`
 
 <div align="center">
-
-<!-- First snake workflow run creates the output branch image. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-light.svg" />
-  <img src="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-dark.svg" alt="Animated contribution snake. Appears after running the Snake Animation GitHub Action." width="100%" />
-</picture>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Reapbone&bg_color=ffffff&color=111111&line=111111&point=444444&area_color=eeeeee&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph">
 </div>
 
 ---
 
 <div align="center">
-
-**Have an interesting idea? Let's build something cool.**
-
-<a href="https://reapbone.github.io/reapbone/">🚀 Interactive world</a> &nbsp;·&nbsp; <a href="https://github.com/Reapbone?tab=repositories">🧩 My repositories</a> &nbsp;·&nbsp; <a href="https://github.com/Reapbone">💜 GitHub</a>
-
-<sub>Crafted with curiosity · Built to evolve · REAPBONE / 2026</sub>
-
+  <strong>BUILD WITH CURIOSITY. SHIP WITH CARE.</strong>
+  <br><br>
+  <sub>REAPBONE · BLACK / WHITE · 2026</sub>
 </div>

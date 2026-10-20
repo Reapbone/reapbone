@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" role="img" aria-label="Reapbone terminal banner">
+<rect width="880" height="240" rx="14" fill="#0b0b0b"/>
+<rect x="1" y="1" width="878" height="238" rx="13" fill="none" stroke="#555" stroke-width="2"/>
+<path d="M1 45H879" stroke="#444"/>
+<circle cx="25" cy="23" r="5" fill="#ddd"/><circle cx="43" cy="23" r="5" fill="#999"/><circle cx="61" cy="23" r="5" fill="#555"/>
+<text x="440" y="28" text-anchor="middle" font-family="monospace" font-size="13" fill="#eee">reapbone@workspace:~</text>
+<g fill="#fff" font-family="Consolas,monospace" font-size="20">
+<text x="34" y="92">$ whoami</text>
+<text x="34" y="129">REAPBONE // AI-assisted developer</text>
+<text x="34" y="167">$ status: building, testing, improving</text>
+<text x="34" y="205">$ commissions: open <tspan class="cursor">▌</tspan></text>
+</g>
+<style>.cursor{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+</svg>

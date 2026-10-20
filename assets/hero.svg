@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="475" viewBox="0 0 1440 475" role="img" aria-labelledby="title desc">
+ <title id="title">REAPBONE — AI-powered developer</title>
+ <desc id="desc">Animated futuristic black banner with neon purple and mint rings, an RB monogram and the phrase I build with AI.</desc>
+ <defs>
+  <linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#0b0b16"/><stop offset=".62" stop-color="#121025"/><stop offset="1" stop-color="#08141a"/></linearGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#8c75ff" stop-opacity=".05"/><stop offset=".48" stop-color="#a58dff"/><stop offset="1" stop-color="#58f4c8" stop-opacity=".75"/></linearGradient>
+  <linearGradient id="word" x1="0" x2="1"><stop stop-color="#fafaff"/><stop offset=".75" stop-color="#e3dfff"/><stop offset="1" stop-color="#ada0ff"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#9374ef" stop-opacity=".24"/><stop offset="1" stop-color="#9374ef" stop-opacity="0"/></radialGradient>
+  <radialGradient id="mint"><stop stop-color="#3beebd" stop-opacity=".15"/><stop offset="1" stop-color="#3beebd" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#b6acff" stroke-opacity=".08" fill="none"/></pattern>
+  <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1" fill="#bdb0ff" opacity=".26"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="17"/></filter>
+  <filter id="smallglow"><feGaussianBlur stdDeviation="3"/></filter>
+  <clipPath id="rounded"><rect width="1440" height="475" rx="25"/></clipPath>
+ </defs>
+ <style>
+  .orbit1{transform-origin:1091px 237px;animation:spin 28s linear infinite}.orbit2{transform-origin:1091px 237px;animation:spin 22s linear infinite reverse}.orbit3{transform-origin:1091px 237px;animation:spin 15s linear infinite}
+  .pulse{animation:pulse 3.8s ease-in-out infinite}.flicker{animation:flicker 4.5s ease-in-out infinite}.scan{animation:scan 9s linear infinite}.cursor{animation:cursor 1s steps(1) infinite}
+  .spark{animation:spark 4s ease-in-out infinite}.spark2{animation:spark 5.5s ease-in-out infinite 1.2s}.float{animation:float 5s ease-in-out infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.4;transform:scale(1.06)}}@keyframes flicker{50%{opacity:.63}}@keyframes scan{to{transform:translateY(475px)}}@keyframes cursor{50%{opacity:0}}@keyframes spark{50%{opacity:.15;transform:translateY(-9px)}}@keyframes float{50%{transform:translateY(-8px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+ </style>
+ <g clip-path="url(#rounded)">
+  <rect width="1440" height="475" fill="url(#bg)"/>
+  <ellipse cx="1060" cy="260" rx="400" ry="380" fill="url(#glow)"/>
+  <ellipse cx="1312" cy="110" rx="380" ry="290" fill="url(#mint)"/>
+  <rect width="1440" height="475" fill="url(#grid)"/>
+  <path d="M0 417L630 417 870 165 1440 165" stroke="#7c6aa8" stroke-width="1" fill="none" opacity=".15"/>
+  <path d="M-100 140L632 140 874 390 1440 390" stroke="#7c6aa8" stroke-width="1" fill="none" opacity=".13"/>
+  <rect x="0" y="-2" width="1440" height="2" fill="#9f8eff" opacity=".17" class="scan"/>
+  <g font-family="Consolas,Monaco,monospace" font-size="16" letter-spacing="3" font-weight="bold">
+   <circle cx="72" cy="63" r="6" fill="#55efc1" class="flicker"/><text x="92" y="69" fill="#b9b6d4">REAPBONE / DEV LAB</text>
+   <text x="1355" y="68" text-anchor="end" fill="#86819e" font-size="14">001 / AI SYSTEMS</text>
+  </g>
+  <path d="M72 94H660" stroke="url(#line)" opacity=".6"/>
+  <g>
+   <text x="67" y="209" fill="url(#word)" font-family="Arial,Helvetica,sans-serif" font-size="101" font-weight="900" letter-spacing="7">REAPBONE</text>
+   <rect x="72" y="229" width="112" height="5" rx="2" fill="#a18bff"/>
+   <rect x="197" y="229" width="32" height="5" rx="2" fill="#59efc8"/>
+   <text x="72" y="287" fill="#e6e3f7" font-family="Consolas,Monaco,monospace" font-size="26" letter-spacing=".3">I build things with AI<tspan fill="#55f4c4">_</tspan></text>
+   <text x="72" y="332" fill="#a39eb8" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing=".6">Curiosity → Code → Something Real.</text>
+   <g font-family="Consolas,Monaco,monospace" font-size="14" fill="#b2aac9" letter-spacing="1.8">
+    <rect x="72" y="379" width="146" height="36" rx="8" stroke="#8d7bbf" stroke-opacity=".5" fill="#231d3b" fill-opacity=".8"/><text x="91" y="402">AI / BUILDER</text>
+    <rect x="229" y="379" width="191" height="36" rx="8" stroke="#537d75" stroke-opacity=".7" fill="#112b2a" fill-opacity=".8"/><text x="248" y="402" fill="#77efcb">ALWAYS LEARNING</text>
+    <rect x="431" y="379" width="194" height="36" rx="8" stroke="#8d7bbf" stroke-opacity=".45" fill="#231d3b" fill-opacity=".5"/><text x="447" y="402">BUILD → ITERATE</text>
+   </g>
+  </g>
+  <g class="float">
+   <g class="orbit1" fill="none" stroke="#8a78ef" stroke-width="1.9" opacity=".9">
+    <circle cx="1091" cy="237" r="175" stroke-dasharray="3 18"/><path d="M1091 62 A175 175 0 0 1 1266 237" stroke="#8b77ff" stroke-width="3.2"/>
+    <circle cx="1091" cy="62" r="5" fill="#aa9cff" stroke="none"/>
+   </g>
+   <g class="orbit2" fill="none" stroke="#47c9b2" stroke-width="2">
+    <circle cx="1091" cy="237" r="136" stroke-dasharray="120 29 21 44 8 35" opacity=".56"/>
+    <circle cx="1091" cy="101" r="7" fill="#56edc1" stroke="#56edc1"/>
+   </g>
+   <g class="orbit3" fill="none"><circle cx="1091" cy="237" r="104" stroke="#a18bff" stroke-opacity=".3" stroke-dasharray="9 17" stroke-width="2"/>
+    <circle cx="987" cy="237" r="4" fill="#baadff"/></g>
+   <circle cx="1091" cy="237" r="83" fill="#100e24" stroke="#a18cff" stroke-opacity=".45" stroke-width="2"/>
+   <circle cx="1091" cy="237" r="74" fill="#1c1839" stroke="#a18cff" stroke-opacity=".25"/>
+   <path d="M1037 190 L1059 173 L1091 194 L1121 173 L1143 190" fill="none" stroke="#a99aff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+   <text x="1091" y="258" fill="#f8f6ff" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="66" text-anchor="middle" letter-spacing="-4">R<tspan fill="#61f2cb">B</tspan></text>
+   <circle cx="1091" cy="237" r="88" stroke="#ac97ff" stroke-opacity=".2" stroke-width="12" fill="none" filter="url(#smallglow)" class="pulse"/>
+  </g>
+  <g fill="#a79fbf" font-family="Consolas,Monaco,monospace" font-size="11" letter-spacing="2">
+   <text x="902" y="52">NEURAL DESIGN / 01</text>
+   <text x="1215" y="448">BUILD MODE: ON</text>
+   <text x="72" y="448">REAPBONE.DEV ©</text>
+  </g>
+  <circle cx="865" cy="147" r="2.8" fill="#8d7aff" class="spark"/><circle cx="1270" cy="148" r="3.1" fill="#67efce" class="spark2"/><circle cx="1325" cy="361" r="2.8" fill="#8d7aff" class="spark"/>
+  <rect x="1" y="1" width="1438" height="473" rx="24" fill="none" stroke="#77729d" stroke-opacity=".45" stroke-width="2"/>
+ </g>
+</svg>

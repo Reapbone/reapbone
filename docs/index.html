@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080913" />
+  <meta name="description" content="Reapbone — creative developer, AI explorer. Curiosity to code, ideas to reality. Explore interactive work and live GitHub projects." />
+  <meta name="github-user" content="Reapbone" />
+  <meta property="og:title" content="REAPBONE / AI BUILDER" />
+  <meta property="og:description" content="I build things with AI. Step into the lab." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Reapbone/reapbone/main/assets/hero.svg" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>REAPBONE — Creative AI Developer</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="mouse-light" aria-hidden="true"></div>
+  <header class="header shell" id="top">
+    <a class="brand" href="#top" aria-label="Reapbone, go to top"><span class="brand-symbol" aria-hidden="true">R<span>B</span></span><span class="brand-text">REAPBONE<span class="brand-dot">.</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">01 / ABOUT</a><a href="#work" data-i18n="navWork">02 / WORK</a><a href="#terminal" data-i18n="navTerminal">03 / TERMINAL</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="mini-button" id="language" type="button" aria-label="Change language">TR</button>
+      <button class="icon-button" id="theme" type="button" aria-label="Toggle dark and light theme" title="Switch theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></button>
+      <button class="kbd-button" id="openPalette" type="button" aria-label="Open command palette" title="Open command palette">⌘ K</button>
+      <a class="github-link" data-github-url href="https://github.com/Reapbone" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-pulse"></span><span data-i18n="heroStatus">SYSTEM ONLINE / OPEN TO POSSIBILITIES</span><span class="eyebrow-meta">[ 01 — ∞ ]</span></div>
+        <h1 id="hero-title"><span class="muted-heading" data-i18n="heroBefore">TURNING</span><br /><span data-i18n="heroLine">CURIOSITY</span><br /><span class="gradient-heading" data-i18n="heroAfter">INTO CODE.</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">I'm Reapbone. I love building things with AI — turning unusual ideas into real, working experiences.</p>
+        <div class="hero-cta"><a class="button primary" href="#work"><span data-i18n="viewWork">EXPLORE MY WORK</span><span aria-hidden="true">↗</span></a><a class="button secondary" href="#terminal"><span class="tiny-square" aria-hidden="true"></span><span data-i18n="runTerminal">RUN TERMINAL</span><span aria-hidden="true">›</span></a></div>
+        <p class="hero-footnote"><span class="square-indicator" aria-hidden="true"></span><span data-i18n="heroNote">NOT JUST PROMPTS. PROJECTS, EXPERIMENTS & CODE.</span></p>
+      </div>
+      <div class="hero-art" aria-label="Interactive network. Drag the nodes and click them to explore the development process.">
+        <div class="art-topline"><span>REAPBONE // <span class="text-accent">NEURAL_LAB</span></span><span>INTERACTIVE MODEL 001</span></div>
+        <canvas id="network" role="img" aria-label="Interactive graph of the creative development stages: Idea, AI, Build, Test, Ship. Drag or tap nodes to inspect them."></canvas>
+        <div class="art-corner-top" aria-hidden="true"></div><div class="art-corner-bottom" aria-hidden="true"></div>
+        <div class="art-bottomline"><span class="graph-state"><span class="graph-led"></span><span id="graphLabel" aria-live="polite">SELECT NODE / EXPLORE</span></span><span class="art-rotate">MOVE · DRAG · DISCOVER</span></div>
+      </div>
+      <div class="hero-vertical" aria-hidden="true">CREATIVE SYSTEMS / EXPERIMENT 001</div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-inner"><span>IDEA <b>✳</b> BUILD <b>✳</b> AI <b>✳</b> EXPERIMENT <b>✳</b> LEARN <b>✳</b> SHIP <b>✳</b> REPEAT <b>✳</b></span><span> IDEA <b>✳</b> BUILD <b>✳</b> AI <b>✳</b> EXPERIMENT <b>✳</b> LEARN <b>✳</b> SHIP <b>✳</b> REPEAT <b>✳</b></span></div></div>
+    <section class="section shell" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / ABOUT.EXE</span><span class="dotted"></span><span data-i18n="sectionAboutTiny">A BIT ABOUT ME</span></div>
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <h2 id="about-title" data-i18n-html="aboutHeadline">THE BEST IDEAS<br />START WITH <em>"WHAT IF?"</em></h2>
+          <p data-i18n="aboutOne">I enjoy exploring how AI can unlock new ways to build — from quick experiments to tools that solve real problems.</p>
+          <p data-i18n="aboutTwo">For me, building is the fun part. I experiment, break things, learn something new, and make the next version better.</p>
+          <a class="text-link" data-github-repos href="https://github.com/Reapbone?tab=repositories" target="_blank" rel="noopener noreferrer"><span data-i18n="exploreGithub">EXPLORE REPOSITORIES</span> ↗</a>
+        </div>
+        <div class="about-cards reveal">
+          <article class="interest-card"><span class="card-index">/ 01</span><span class="interest-icon" aria-hidden="true">✺</span><h3 data-i18n="c1title">AI EXPLORATION</h3><p data-i18n="c1body">Experimenting with models, prompts and smarter workflows.</p></article>
+          <article class="interest-card"><span class="card-index">/ 02</span><span class="interest-icon" aria-hidden="true">⌘</span><h3 data-i18n="c2title">CREATIVE BUILDING</h3><p data-i18n="c2body">Turning a blank screen into something interactive and useful.</p></article>
+          <article class="interest-card"><span class="card-index">/ 03</span><span class="interest-icon" aria-hidden="true">↻</span><h3 data-i18n="c3title">NEVER STOP LEARNING</h3><p data-i18n="c3body">Prototyping, testing and improving one iteration at a time.</p></article>
+          <article class="interest-card tile-highlight"><span class="card-index">/ ∞</span><span class="interest-icon" aria-hidden="true">↗</span><h3 data-i18n="c4title">NEXT EXPERIMENT</h3><p data-i18n="c4body">The most interesting project might be the next one.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="stats-section shell" aria-labelledby="stats-title"><div class="section-label" id="stats-title"><span>LIVE / GITHUB SIGNALS</span><span class="dotted"></span><span id="apiStatus">CONNECTING...</span></div><div class="stats-grid"><div class="stat"><strong id="statRepos">—</strong><span data-i18n="repoCount">PUBLIC REPOSITORIES</span></div><div class="stat"><strong id="statStars">—</strong><span data-i18n="starCount">EARNED STARS</span></div><div class="stat"><strong id="statFollowers">—</strong><span data-i18n="followerCount">FOLLOWERS</span></div><div class="stat stat-motto"><span class="stat-star">✳</span><strong data-i18n-html="statLast">ALWAYS<br />BUILDING</strong></div></div></section>
+    <section class="section shell work-section" id="work" aria-labelledby="work-title">
+      <div class="section-label"><span>02 / PROJECT_INDEX</span><span class="dotted"></span><span data-i18n="workTiny">LIVE FROM GITHUB</span></div>
+      <div class="section-heading"><div><p class="section-overline" data-i18n="workEyebrow">REAL REPOSITORIES. NO DEMO DATA.</p><h2 id="work-title" data-i18n="workTitle">THINGS I'VE BUILT<span class="green-dot">.</span></h2></div><span class="counter" id="projectTotal">[ — PROJECTS ]</span></div>
+      <div class="filterbar"><div class="filter-buttons" role="group" aria-label="Filter projects"><button type="button" class="filter active" data-filter="all" aria-pressed="true" data-i18n="all">ALL</button><button type="button" class="filter" data-filter="ai" aria-pressed="false">AI</button><button type="button" class="filter" data-filter="tools" aria-pressed="false" data-i18n="tools">TOOLS & BOTS</button><button type="button" class="filter" data-filter="other" aria-pressed="false" data-i18n="other">OTHER</button></div><label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only" data-i18n="searchLabel">Search repositories</span><input id="repoSearch" type="search" data-i18n-placeholder="search" placeholder="SEARCH PROJECTS..." autocomplete="off" /></label></div>
+      <div class="projects-grid" id="projectsGrid" aria-live="polite"><div class="loading-block"><span class="loading-orbit"></span><span data-i18n="loading">PULLING LIVE GITHUB DATA...</span></div></div>
+      <div class="project-footer"><a data-github-repos href="https://github.com/Reapbone?tab=repositories" class="text-link" target="_blank" rel="noopener noreferrer"><span data-i18n="allGithub">VIEW ALL ON GITHUB</span> ↗</a><span data-i18n="liveNote">LIVE DATA · PUBLIC REPOSITORIES ONLY</span></div>
+    </section>
+    <section class="section shell terminal-section" id="terminal" aria-labelledby="terminal-title"><div class="section-label"><span>03 / INTERACTIVE_TERMINAL</span><span class="dotted"></span><span data-i18n="terminalTiny">GO AHEAD, TYPE SOMETHING</span></div><div class="terminal-layout"><div class="terminal-intro"><p class="section-overline">REAPBONE.OS / v1.0</p><h2 id="terminal-title" data-i18n-html="terminalTitle">A LITTLE<br /><em>TERMINAL MAGIC.</em></h2><p data-i18n="terminalDesc">This one actually responds. Try a command and see where it takes you.</p><div class="command-chips"><button type="button" data-command="help">help ↗</button><button type="button" data-command="about">about ↗</button><button type="button" data-command="ai">ai ↗</button><button type="button" data-command="projects">projects ↗</button><button type="button" data-command="theme">theme ↗</button></div></div><div class="terminal-window"><div class="terminal-titlebar"><div class="traffic"><i></i><i></i><i></i></div><span>reapbone@neural-lab: ~</span><span>● ACTIVE</span></div><div id="terminalOutput" class="terminal-output" aria-live="polite"><p><span class="terminal-accent">REAPBONE.OS</span> [v1.0] — <span data-i18n="termGreeting">interactive environment</span></p><p data-i18n="termPrompt">Enter 'help' for available commands.</p></div><form id="terminalForm" class="terminal-form" autocomplete="off"><label for="terminalInput" aria-label="Terminal command"><span>❯</span></label><input id="terminalInput" type="text" placeholder="type a command..." data-i18n-placeholder="termPlaceholder" spellcheck="false" autocapitalize="off" autocomplete="off" maxlength="80" aria-label="Terminal command" /><button type="submit" aria-label="Run command">↵</button></form></div></div></section>
+    <section class="end-section shell" id="contact"><div class="end-top"><span>END OF FILE / BEGINNING OF SOMETHING</span><span>2026 → ∞</span></div><h2 data-i18n-html="endTitle">GOT AN IDEA?<br /><em>LET'S MAKE IT REAL.</em></h2><div class="end-actions"><a class="button primary" data-github-url href="https://github.com/Reapbone" target="_blank" rel="noopener noreferrer"><span data-i18n="findGithub">FIND ME ON GITHUB</span> ↗</a><button class="button secondary" id="copyLink" type="button"><span data-i18n="copyLink">COPY PROFILE LINK</span> ⧉</button></div></section>
+  </main>
+  <footer class="shell footer"><a class="brand bottom-brand" href="#top"><span class="brand-symbol">R<span>B</span></span><span class="brand-text">REAPBONE<span class="brand-dot">.</span></span></a><span data-i18n="footer">BUILT WITH CURIOSITY. POWERED BY EXPERIMENTS.</span><a href="#top" class="back-top"><span data-i18n="backTop">BACK TO TOP</span> ↑</a></footer>
+  <div class="palette-overlay" id="paletteOverlay" hidden><div class="palette-panel" role="dialog" aria-modal="true" aria-label="Command palette"><div class="palette-header"><span aria-hidden="true">⌕</span><input id="paletteInput" type="text" aria-label="Search command" placeholder="Jump to a section or run an action..." autocomplete="off" /><button id="closePalette" type="button" aria-label="Close command palette">ESC</button></div><div id="paletteItems" class="palette-items"></div><div class="palette-footer">↵ TO SELECT <span>↑↓ NAVIGATE · ESC CLOSE</span></div></div></div>
+  <div class="toast" id="toast" aria-live="polite" role="status"></div>
+  <script src="./script.js" defer></script>
+</body>
+</html>

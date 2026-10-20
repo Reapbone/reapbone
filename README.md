@@ -1,132 +1,123 @@
+<!-- REAPBONE // PERSONAL GITHUB PROFILE -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:0D1117,35:161B22,65:1F6FEB,100:8957E5&text=REAPBONE&fontColor=FFFFFF&fontSize=72&fontAlignY=43&stroke=58A6FF&strokeWidth=1&desc=GAME%20SYSTEMS%20%E2%80%A2%20TOOLS%20%E2%80%A2%20AUTOMATION&descSize=18&descAlignY=66&animation=twinkling" />
+<a href="https://github.com/Reapbone"><img src="./assets/hero.svg" width="100%" alt="REAPBONE — I build things with AI. Animated neon AI banner." /></a>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2500&pause=700&color=58A6FF&center=true&vCenter=true&width=850&height=70&lines=%3E+SYSTEM+ONLINE...;%3E+GAME+SERVER+DEVELOPER;%3E+TOOL+BUILDER+%2F+AUTOMATION;%3E+MODDING+%2F+PROTOCOL+RESEARCH;%3E+BUILDING+IN+PUBLIC..." alt="Typing SVG" />
-</a>
+<br />
 
-<br>
+<a href="https://reapbone.github.io/reapbone/"><img alt="Explore Interactive Portfolio" src="https://img.shields.io/badge/EXPLORE_INTERACTIVE_PORTFOLIO-19162d?style=for-the-badge&logo=githubpages&logoColor=72e9c1" /></a>
+<a href="https://github.com/Reapbone?tab=repositories"><img alt="Explore repositories" src="https://img.shields.io/badge/VIEW_MY_PROJECTS-19162d?style=for-the-badge&logo=github&logoColor=a995ff" /></a>
+<a href="https://github.com/Reapbone?tab=followers"><img alt="Follow on GitHub" src="https://img.shields.io/badge/FOLLOW_THE_JOURNEY-19162d?style=for-the-badge&logo=github&logoColor=ffffff" /></a>
 
-<img src="https://img.shields.io/badge/STATUS-BUILDING-238636?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/FOCUS-GAME%20SYSTEMS-1F6FEB?style=for-the-badge&logo=steam&logoColor=white" />
-<img src="https://img.shields.io/badge/MODE-OPEN%20SOURCE-8957E5?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
-<img src="https://img.shields.io/github/followers/reapbone?style=for-the-badge&logo=github&label=FOLLOWERS" />
+<br /><br />
 
-
-
-<div align="center">
-
-
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,python,powershell,mysql,git,github,vscode,visualstudio&theme=dark&perline=10" />
-</a>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-Server--Side-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-Automation-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PowerShell-Windows-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+<img src="./assets/badge.svg" alt="Dream. Build. Repeat." width="300" />
 
 </div>
 
-🚀 PROJECT BAY
+### `> hello_world 👋`
+
+I'm **Reapbone**, a curious developer who genuinely loves **building things with AI**. For me, the fun is turning a wild idea into something that *actually works* — experimenting, breaking things, learning, and building again.
+
+> **My favorite workflow:** `imagine → prototype → test → improve → ship`.
+
+```typescript
+const reapbone = {
+  mindset: "learn by building",
+  passion: ["AI", "creative coding", "automation", "experimentation"],
+  currentMode: "creating something new",
+  nextStep: "keep building",
+};
+```
+
+### `> inside_the_lab` <img align="right" src="https://komarev.com/ghpvc/?username=Reapbone&style=flat-square&color=8c78ff&label=VISITORS" alt="Profile visitor count" />
+
+<img src="./assets/terminal.svg" width="100%" alt="Animated terminal: Reapbone, creative developer and AI explorer." />
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<strong>🧠 WHAT DRIVES ME</strong>
+<ul>
+<li>Turning AI-assisted ideas into useful creations.</li>
+<li>Exploring new tools and techniques.</li>
+<li>Building, debugging, and continuously improving.</li>
+<li>Learning by experimenting, not just watching.</li>
+</ul>
+
+</td>
+<td width="50%" valign="top">
+
+<strong>⚡ CURRENT SIGNAL</strong>
+<ul>
+<li><strong>Passion:</strong> AI-powered development</li>
+<li><strong>Approach:</strong> Curiosity + practical coding</li>
+<li><strong>Mindset:</strong> Always learning</li>
+<li><strong>Mode:</strong> Build → Test → Repeat</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+### `> worlds_i_like_to_build`
+
+Alongside AI, I'm interested in **game servers, developer tools, automation, and backend systems** — practical spaces where an experiment can become something useful.
+
+### `> live_signals`
 
 <div align="center">
-
-[ NO PUBLIC RELEASES YET ]
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2200&pause=900&color=8957E5&center=true&vCenter=true&width=700&lines=Compiling+ideas...;Building+developer+tools...;Preparing+open-source+releases...;First+repositories+coming+soon..." />
-
-<br>
-
-GAME SERVERS • DEVELOPER TOOLS • AUTOMATION • MODDING • BACKEND
-
-<br><br>
-
-<img src="https://img.shields.io/badge/PIPELINE-INITIALIZING-8957E5?style=for-the-badge&logo=githubactions&logoColor=white" />
-
+<img width="100%" src="./assets/stats.svg" alt="GitHub public repositories, earned stars and follower totals. Updated automatically by GitHub Actions." />
 </div>
 
-🏆 ACHIEVEMENT GRID
+<details>
+<summary><b>🧪 OPEN LAB NOTES — click to expand</b></summary>
+<br />
+
+**How I like to create**
+
+1. Start with an idea worth exploring.
+2. Break it into small, testable pieces.
+3. Use AI as a creative development partner.
+4. Build, verify, refactor, and repeat.
+5. Share what I discover.
+
+**What you'll find here:** experiments, prototypes, evolving projects, and ideas in motion. I prefer shipping something real to waiting for something perfect.
+
+</details>
+
+<details>
+<summary><b>🌐 TÜRKÇE — hakkımda</b></summary>
+<br />
+
+Selam! Ben **Reapbone**. Yapay zekâ kullanarak yeni şeyler geliştirmeyi, fikirleri çalışan projelere dönüştürmeyi ve sürekli yeni teknolojiler denemeyi seviyorum. Bu profilde deneylerimi, geliştirdiğim araçları ve öğrenme sürecimi paylaşıyorum.
+
+**Fikir üret → Kodla → Test et → Geliştir → Paylaş.**
+
+</details>
+
+### `> contribution_matrix`
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=reapbone&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1" />
-
-</div>
-
-📊 SYSTEM TELEMETRY
-
-<div align="center">
-
-<img height="180" src="https://github-stats-extended.vercel.app/api?username=reapbone&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" />
-<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=reapbone&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=reapbone&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=REAPBONE%20%2F%2F%20ACTIVITY%20SIGNAL" />
-
-</div>
-
-🐍 CONTRIBUTION PROTOCOL
-
-<div align="center">
-
+<!-- First snake workflow run creates the output branch image. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reapbone/reapbone/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reapbone/reapbone/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/reapbone/reapbone/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Reapbone/reapbone/output/github-snake-dark.svg" alt="Animated contribution snake. Appears after running the Snake Animation GitHub Action." width="100%" />
 </picture>
 
 </div>
 
-The snake appears after the included GitHub Actions workflow runs successfully for the first time.
-
-🧪 BUILD PRINCIPLES
-
-projects:
-  documentation: required
-  installation: simple
-  releases: versioned
-  screenshots: recommended
-  changelog: enabled
-  security_policy: enabled
-  open_source: true
-
-code:
-  readable: true
-  reusable: true
-  maintainable: true
-  unnecessary_complexity: false
-
-🌐 CONNECTION
+---
 
 <div align="center">
 
-<a href="https://github.com/reapbone">
-  <img src="https://img.shields.io/badge/GITHUB-REAPBONE-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+**Have an interesting idea? Let's build something cool.**
 
-<br><br>
+<a href="https://reapbone.github.io/reapbone/">🚀 Interactive world</a> &nbsp;·&nbsp; <a href="https://github.com/Reapbone?tab=repositories">🧩 My repositories</a> &nbsp;·&nbsp; <a href="https://github.com/Reapbone">💜 GitHub</a>
 
-<img src="https://komarev.com/ghpvc/?username=reapbone&label=PROFILE%20SIGNAL&style=for-the-badge&color=1f6feb" />
-
-</div>
-
-<div align="center">
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=%3E+Build+useful+things.;%3E+Document+them+well.;%3E+Release+them+clean.;%3E+REAPBONE+%2F%2F+END+OF+TRANSMISSION" />
-</a>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:8957E5,50:1F6FEB,100:0D1117" />
+<sub>Crafted with curiosity · Built to evolve · REAPBONE / 2026</sub>
 
 </div>
